@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#all {
+	width: 1200px;
+	height: auto;
+	background: lightgreen;
+	margin: 0 auto;
+}
+#all div {
+	padding: 10px;
+}
+#all div img {
+	width: 380px;
+	height: 380px;
+}
