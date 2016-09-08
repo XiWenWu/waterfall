@@ -12,14 +12,12 @@ function getSmallDiv(patent, son){
 
 $(function(){
 	var json;
-	$.getJSON("test.json",function(data){
-		// alert(data.comment[8].message);
+	$.getJSON("test.json",function(data){		// alert(data.comment[8].message);
 		json=data.comment;
 		var leng=json.length;
 		for(var i=0; i<leng; i++){
 			var str;
-			str="<div>";
-			// <img src="res/000.jpg"/>
+			str="<div>";			// <img src="res/000.jpg"/>
 			str+="<img src=\"res/"+json[i].picture+"\"/>";
 			str+="</div>"
 			var testData=getSmallDiv($(".all"), $(".test"));
